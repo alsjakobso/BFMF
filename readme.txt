@@ -12,3 +12,5 @@
 12. Copy file over file column in source spreadsheet, and copy meas into physical_description_size
 13. Copy record over record column in source spreadsheet, or select source record column and remove trailing "_p"s
 14. Viola!
+
+Note: Must have the physical_description_size column filled out or the program will throw an error.
