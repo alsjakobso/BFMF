@@ -1,5 +1,5 @@
 1. Filter source BFMF spreadsheet to display multipage records (FILE column --> fiter by condition --> text contains --> "_p")
-2. Remove page suffix in RECORD column (everything after and including "_p")
+2. Remove page suffix in RECORD column (everything after and including "_p") 
 3. Copy into new spreadsheet
 4. Download as .csv
 5. Rename .csv "multi.csv"
@@ -14,3 +14,4 @@
 14. Viola!
 
 Note: Must have the physical_description_size column filled out or the program will throw an error.
+Another note: Python is case sensitive so make sure all relevant headers are LOWERCASE (record, file, physical_description_size) or it will throw an error.
